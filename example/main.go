@@ -27,17 +27,9 @@ func main() {
 	configuration.HTTPClient = nil
 
 	CreateOriginPool(configuration)
-	fmt.Println()
-	fmt.Println()
 	ListOriginPool(configuration)
-	fmt.Println()
-	fmt.Println()
 	ReplaceOriginPool(configuration)
-	fmt.Println()
-	fmt.Println()
 	GetOriginPool(configuration)
-	fmt.Println()
-	fmt.Println()
 	DeleteOriginPool(configuration)
 }
 
